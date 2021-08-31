@@ -94,7 +94,7 @@ const CollectionPresenter = ({result, error, loading}) => loading ?
 			{error && <Message color="#e74c3c" text={error} ></Message>}
 			</Container>
 
-CollectionPresenter.proptypes = {
+CollectionPresenter.propTypes = {
 	result:PropTypes.object,
 	error:PropTypes.string,
 	loading:PropTypes.bool.isRequired
