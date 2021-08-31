@@ -85,12 +85,6 @@ const ContentsContainer = styled.div`
 	align-items:left;
 	flex-wrap: wrap;
 `;
-const SeasonContainer = styled.div`
-	display:flex;
-	justify-content:center;
-	align-items:left;
-	flex-wrap: wrap;
-`;
 
 const VideoTitle = styled.span`
 	display:block;
